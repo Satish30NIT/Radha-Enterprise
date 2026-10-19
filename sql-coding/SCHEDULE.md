@@ -36,6 +36,28 @@ Radha-specific schema design & product SQL live in the **project**, not as the i
 | 07 | `month-07-sql-competition-online` |
 | 08 | `month-08-sql-competition-online` |
 
+### Platforms (SQL online practice / contests)
+
+| Platform | Link | Best for |
+|---|---|---|
+| **LeetCode** | https://leetcode.com/problemset/database/ | SQL problem sets, contests, interview-style |
+| **HackerRank** | https://www.hackerrank.com/domains/sql | Structured SQL tracks + contests |
+| **Codeforces** | https://codeforces.com/ | General contests (less SQL-focused; occasional DB/SQL) |
+| **AtCoder** | https://atcoder.jp/ | Contests (mostly algorithms; use for speed mindset) |
+| **SQLBolt** | https://sqlbolt.com/ | Beginner interactive SQL (warm-up, not contest) |
+| **Mode SQL Tutorial** | https://mode.com/sql-tutorial/ | Business-style SQL practice |
+| **StrataScratch** | https://www.stratascratch.com/ | Data/SQL interview + company-style questions |
+| **DataLemur** | https://datalemur.com/ | SQL interview practice (easy→hard) |
+| **Hackerrank Contests** | https://www.hackerrank.com/contests | Timed competition practice |
+| **LeetCode Contests** | https://leetcode.com/contest/ | Timed contests (mix; pick DB when available) |
+
+**Primary stack for Months 7–8 (recommended):**  
+1. **LeetCode Database** + Contests  
+2. **HackerRank SQL** + Contests  
+3. **DataLemur** / **StrataScratch** for extra volume  
+
+Save solutions under the day’s folder as `.sql` (question in comments).
+
 ---
 
 ## Months 9–10 — Interview
