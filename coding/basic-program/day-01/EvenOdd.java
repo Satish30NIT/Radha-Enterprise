@@ -1,6 +1,29 @@
-// CORRECT ANSWER — Day 1 Q2: Odd or Even
-// Scanner/stdin deferred. Tests via method calls.
-// Output: exactly "Even" or "Odd"
+/*
+ * Day 1 · Coding Q2 — Odd or Even
+ *
+ * Problem:
+ *   Given one integer N, print "Even" if N is divisible by 2, otherwise "Odd".
+ *
+ * Output:
+ *   Exactly: Even  OR  Odd
+ *
+ * Constraints:
+ *   -1e9 <= N <= 1e9
+ *
+ * Samples / tests:
+ *   4  -> Even
+ *   7  -> Odd
+ *   0  -> Even
+ *   2  -> Even
+ *   9  -> Odd
+ *  -4  -> Even
+ *  -1  -> Odd
+ *
+ * Edges: 0, negatives
+ *
+ * Note: Scanner/stdin deferred to a later topic.
+ * Correct final answer only.
+ */
 
 class EvenOdd {
     public String evenOdd(int n) {
@@ -13,12 +36,12 @@ class EvenOdd {
     public static void main(String[] args) {
         EvenOdd obj = new EvenOdd();
 
-        System.out.println(obj.evenOdd(4));   // Even
-        System.out.println(obj.evenOdd(7));   // Odd
-        System.out.println(obj.evenOdd(0));   // Even
-        System.out.println(obj.evenOdd(2));   // Even
-        System.out.println(obj.evenOdd(9));   // Odd
-        System.out.println(obj.evenOdd(-4));  // Even
-        System.out.println(obj.evenOdd(-1));  // Odd
+        System.out.println(obj.evenOdd(4));
+        System.out.println(obj.evenOdd(7));
+        System.out.println(obj.evenOdd(0));
+        System.out.println(obj.evenOdd(2));
+        System.out.println(obj.evenOdd(9));
+        System.out.println(obj.evenOdd(-4));
+        System.out.println(obj.evenOdd(-1));
     }
 }
