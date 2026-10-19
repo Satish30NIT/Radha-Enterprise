@@ -7,13 +7,12 @@ Radha-Enterprise/
 │   ├── month-01-basic/
 │   └── phase-*/                   # long-term phase roadmap
 │
-├── coding/                        # DSA coding (same 10-month shape as SQL)
+├── coding/                        # DSA coding (12 months)
 │   ├── SCHEDULE.md
-│   ├── month-01-basics/ … month-06-graphs-dp-mastery/
-│   ├── month-07-coding-competition-online/
-│   ├── month-08-coding-competition-online/
-│   ├── month-09-interview-coding/
-│   └── month-10-interview-coding/
+│   ├── month-01-basics/ … month-09-tree-binary-search-tree/   # Mastery
+│   ├── month-10-coding-competition-online/                   # Competition
+│   ├── month-11-coding-competition-online/                   # Competition
+│   └── month-12-interview-coding/                            # Interview
 │
 ├── sql-coding/                    # SQL skill track
 │   ├── SCHEDULE.md
