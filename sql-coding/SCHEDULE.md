@@ -4,46 +4,47 @@
 
 | Phase | Months | Goal |
 |---|---|---|
-| **Mastery** | **1–6** | Master SQL to **7+ years experienced developer** depth — mechanism, trade-offs, production, Radha OMS |
-| **Competition** | **7–8** | Practice on **online coding competition** platforms (speed + patterns) |
-| **Interview** | **9–10** | Practice **SQL coding interview** questions (OMS + senior explanation) |
+| **Mastery** | **1–6** | Master SQL to **7+ years** depth (general + production SQL) |
+| **Competition** | **7–8** | Online coding competition platforms |
+| **Interview** | **9–10** | SQL coding interview questions |
 
-**Daily:** ~20–45 min · correct final `.sql` only · questions in file comments  
-**Path:** `sql-coding/month-NN-<topic>/day-XX-concept/`
+**Important split**
+- `sql-coding/` = SQL skill (portable, interview/contest ready)
+- `radha-enterprise/` = **Radha OMS project** schema/APIs/domain (project track)
+
+Radha-specific schema design & product SQL live in the **project**, not as the identity of months 5–6.
 
 ---
 
-## Months 1–6 — SQL Mastery (7+ level)
+## Months 1–6 — SQL Mastery
 
 | Month | Folder | Focus |
 |---|---|---|
-| 01 | `month-01-foundations` | SELECT → WHERE → JOIN → GROUP → pagination |
-| 02 | `month-02-joins-subqueries-oms` | Deep joins/subqueries + OMS-shaped queries |
-| 03 | `month-03-indexes-transactions` | Indexes, EXPLAIN, transactions, locks, deadlocks |
-| 04 | `month-04-windows-cte-analytics` | Window functions, CTEs, analytics SQL |
-| 05 | `month-05-postgresql-radha-schema` | PostgreSQL + Radha multi-tenant schema |
-| 06 | `month-06-advanced-production-sql` | Production SQL mastery — slow queries, concurrency, OMS hard cases |
-
-**Mastery bar:** explain *and* implement; defend trade-offs; map to Radha — not memorized syntax.
+| 01 | `month-01-foundations` | SELECT → JOIN → GROUP → pagination |
+| 02 | `month-02-joins-subqueries` | Deep joins, subqueries, practice sets |
+| 03 | `month-03-indexes-transactions` | Indexes, EXPLAIN, transactions, locks |
+| 04 | `month-04-windows-cte-analytics` | Windows, CTEs, analytics |
+| 05 | `month-05-postgresql-advanced` | PostgreSQL deep (types, JSONB, indexes, migrations) |
+| 06 | `month-06-advanced-production-sql` | Production SQL mastery (slow queries, concurrency, hard cases) |
 
 ---
 
-## Months 7–8 — Online competition practice
+## Months 7–8 — Competition
 
-| Month | Folder | Focus |
-|---|---|---|
-| 07 | `month-07-sql-competition-online` | Contests easy→hard, timed sims (LeetCode/HackerRank style) |
-| 08 | `month-08-sql-competition-online` | Harder contests, 60–90m sims, trap patterns |
-
----
-
-## Months 9–10 — SQL interview questions
-
-| Month | Folder | Focus |
-|---|---|---|
-| 09 | `month-09-interview-oms-drills` | Interview SQL + OMS scenarios + speak-aloud |
-| 10 | `month-10-interview-oms-drills` | Senior mocks, production stories, capstone interview sets |
+| Month | Folder |
+|---|---|
+| 07 | `month-07-sql-competition-online` |
+| 08 | `month-08-sql-competition-online` |
 
 ---
 
-**Total:** 10 × 30 = **300** days
+## Months 9–10 — Interview
+
+| Month | Folder |
+|---|---|
+| 09 | `month-09-interview-oms-drills` |
+| 10 | `month-10-interview-oms-drills` |
+
+*(Interview months may use OMS-style scenarios as practice prompts; product implementation still stays in `radha-enterprise/`.)*
+
+**Total:** 300 days
