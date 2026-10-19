@@ -1,10 +1,11 @@
 # Day 1 — Coding (`basic-program`)
 
-**Main notes:** [`QUESTIONS-AND-ANSWERS.md`](./QUESTIONS-AND-ANSWERS.md)
+**Only correct final code** (clean folder).
 
-| Q | First attempt | Correct answer |
-|---|---|---|
-| Sum of two numbers | `attempts/SumOfTwoNumbers_attempt.java` | `SumOfTwoNumbers.java` |
-| Odd or Even | `attempts/EvenOdd_attempt.java` | `EvenOdd.java` |
+| Q | File |
+|---|---|
+| Sum of two numbers | `SumOfTwoNumbers.java` |
+| Odd or Even | `EvenOdd.java` |
 
-**Note:** `Scanner` / stdin deferred — correct answers use methods + test prints with **exact output format**.
+Problems + notes: `QUESTIONS-AND-ANSWERS.md`  
+Deferred: `Scanner` / stdin (later topic).

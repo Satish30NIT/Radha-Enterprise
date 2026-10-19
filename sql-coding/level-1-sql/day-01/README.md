@@ -1,12 +1,11 @@
 # Day 1 — SQL (`level-1-sql`)
 
-**Main file:** [`questions-and-answers.sql`](./questions-and-answers.sql)  
-Har question ke saath: problem · edges · pehli attempt · **fixed answer**
+**Only correct final answers** (clean folder).
 
-| Q | Status after fix |
+**File:** [`questions-and-answers.sql`](./questions-and-answers.sql)
+
+| Q | Topic |
 |---|---|
-| Q1 High salary | PASS |
-| Q2 Paid + latest | FIXED (`created_at DESC`, `'PAID'`) |
-| Q3 Top 5 | FIXED (no bad `WHERE`, `LIMIT 5`) |
-
-**Score after fixes:** 3/3 conceptual pass (revise file for notes).
+| Q1 | High salary (`salary > 50000`) |
+| Q2 | PAID orders by `created_at DESC` |
+| Q3 | Top 5 latest orders (`LIMIT 5`) |

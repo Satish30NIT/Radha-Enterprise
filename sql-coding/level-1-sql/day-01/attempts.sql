@@ -1,2 +1,0 @@
--- Deprecated as main notes file.
--- Use questions-and-answers.sql (question + first attempt + fixed answer).
