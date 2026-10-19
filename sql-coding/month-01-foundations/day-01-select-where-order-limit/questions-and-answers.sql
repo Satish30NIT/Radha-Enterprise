@@ -1,6 +1,6 @@
 -- ============================================================
 -- Month 1 · Day 1 · Section 4 — SQL (correct final answers)
--- Path: sql-coding/month-01-topic-wise/day-01-select-where-order-limit/
+-- Path: sql-coding/month-01-foundations/day-01-select-where-order-limit/
 -- ============================================================
 -- Schema:
 --   employees(id, name, department, salary, joined_on)
