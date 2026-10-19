@@ -1,6 +1,6 @@
 # Month 1 · Day 1 — How code works
 
-**Folder:** `java-learning/phase-1-core-java/basic/day-01-how-code-works/`  
+**Folder:** `java-learning/month-01-basic/day-01-how-code-works/`  
 **Style:** Deep dive as a working backend engineer explains it — not a textbook dump.  
 **Note:** Interview Q packs come **after Phase 1 / Month 1** revision block — not on this day.
 
