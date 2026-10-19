@@ -1,46 +1,32 @@
-# Radha-Enterprise — Folder Structure (correct)
+# Radha-Enterprise — Folder Structure
 
 ```text
 Radha-Enterprise/
-├── java-learning/                     # Java theory (7+ depth)
+├── java-learning/                 # Java theory (7+ depth)
 │   ├── EXPERIENCED-DEPTH-STANDARD.md
 │   ├── month-01-basic/
-│   │   └── day-01-how-code-works/
-│   ├── month-02-...                   # later
-│   └── phase-*/                       # long-term phase roadmap placeholders
+│   └── phase-*/                   # long-term phase roadmap
 │
-├── coding/                            # DSA coding
-│   ├── month-01-basics/
-│   │   └── day-01-basic-program/
-│   ├── level-1-array/ ...             # later DSA levels
-│   └── level-*-string/
-│
-├── sql-coding/                        # SQL skill track (NOT Radha project)
+├── coding/                        # DSA coding (same 10-month shape as SQL)
 │   ├── SCHEDULE.md
-│   ├── month-01-foundations/          # mastery 1–6
-│   ├── month-02-joins-subqueries/
-│   ├── month-03-indexes-transactions/
-│   ├── month-04-windows-cte-analytics/
-│   ├── month-05-postgresql-advanced/
-│   ├── month-06-advanced-production-sql/
+│   ├── month-01-basics/ … month-06-graphs-dp-mastery/
+│   ├── month-07-coding-competition-online/
+│   ├── month-08-coding-competition-online/
+│   ├── month-09-interview-coding/
+│   └── month-10-interview-coding/
+│
+├── sql-coding/                    # SQL skill track
+│   ├── SCHEDULE.md
+│   ├── month-01-foundations/ … month-06-advanced-production-sql/
 │   ├── month-07-sql-competition-online/
 │   ├── month-08-sql-competition-online/
 │   ├── month-09-interview-oms-drills/
 │   └── month-10-interview-oms-drills/
 │
-└── radha-enterprise/                  # OMS product / project track
+└── radha-enterprise/              # OMS product / project only
     ├── month-01-foundation/
-    │   └── day-01-domain-and-runtime/
-    ├── auth-enterprise/
-    ├── dashboard-rbac/
-    ├── channel-integration/
-    ├── catalog-inventory/
-    ├── order-management/
-    └── ...
+    └── auth-enterprise/ …
 ```
 
-## Rules
-- Pattern: `month-NN-<topic>/day-XX-<concept>/`
-- Only correct final code/SQL; questions in comments
-- Interview Q packs after Month 1 block (Java) / Months 9–10 (SQL)
-- Radha schema & product SQL → `radha-enterprise/` only
+## Parallel daily habit
+Java theory day + coding day + SQL day + Radha project step
