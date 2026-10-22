@@ -1,5 +1,8 @@
 -- ============================================================
--- Month 1 · Day 1 · Section 4 — SQL (correct final answers)
+-- Month 1 · Day 1 · Section 3 — SQL (correct final answers)
+-- Lessons locked today:
+--   1) Text values use single quotes: status = 'PAID'  (double quotes = identifier)
+--   2) "Latest" means created_at, not id (ORDER BY created_at DESC)
 -- Path: sql-coding/month-01-foundations/day-01-select-where-order-limit/
 -- ============================================================
 -- Schema:
